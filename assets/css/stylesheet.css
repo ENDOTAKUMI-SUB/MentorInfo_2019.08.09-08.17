@@ -27,7 +27,7 @@ html,body,main {
     height: 100px;
     clear: both;
     
-    background-color: greenyellow
+    background-color: greenyellow;
 }
 
 
@@ -38,5 +38,5 @@ html,body,main {
     margin: 10px 10px 10px 10px;
     
     background-color: darksalmon;
-    float: left
+    float: left;
 }
