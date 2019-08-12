@@ -1,6 +1,8 @@
 html,body,main {
     width: 100;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #video {
@@ -13,7 +15,7 @@ html,body,main {
 #mentor {
     width: 100%;
     
-    background-color: indianred;
+    background-color: #f0f3f8;
 }
 
 #mentor-list {
@@ -28,7 +30,7 @@ html,body,main {
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
     padding: 10px;
-    background-color: darksalmon;
+    background-color: #ffffff;
     float: left;
     text-align: center;
 }
@@ -52,11 +54,14 @@ html,body,main {
 
 .mentor-name {
     font-size: 24px;
-    background-color: 
+    font-weight:bolder;
+    margin-bottom: 10px;
 }
 
 .mentor-full-name {
-    font-size: 20px;
+    margin: 0px auto;
+    font-size: 10px;
+    color: #999;
 }
 
 .mentor-course {
@@ -64,8 +69,8 @@ html,body,main {
 }
 
 .mentor-text {
-    font-size: 16px;
-    
+    font-size: 10px;
+    color: #999;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -79,7 +84,7 @@ html,body,main {
     text-decoration: none;
     color: #67c5ff;
     border: solid 2px #67c5ff;
-    border-radius: 3px;
+    border-radius: 10px;
     transition: .4s;
 }
 
