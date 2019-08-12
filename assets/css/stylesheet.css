@@ -22,15 +22,6 @@ html,body,main {
     overflow: hidden;
 }
 
-#footer {
-    width: 100%;
-    height: 100px;
-    clear: both;
-    
-    background-color: greenyellow;
-}
-
-
 .mentor-content {
     width: 300px;
     height: 300px;
@@ -39,4 +30,25 @@ html,body,main {
     
     background-color: darksalmon;
     float: left;
+}
+
+@media screen and (max-width: 980px) {
+    #mentor {
+        background-color: green; 
+    }
+    
+    .mentor-content {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+
+#footer {
+    width: 100%;
+    height: 100px;
+    clear: both;
+    
+    background-color: greenyellow;
 }
