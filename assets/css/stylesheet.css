@@ -27,9 +27,10 @@ html,body,main {
     height: 300px;
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
-    
+    padding: 10px;
     background-color: darksalmon;
     float: left;
+    text-align: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -44,6 +45,49 @@ html,body,main {
 }
 
 
+.mentor-img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.mentor-name {
+    font-size: 24px;
+    background-color: 
+}
+
+.mentor-full-name {
+    font-size: 20px;
+}
+
+.mentor-course {
+    font-size: 16px;
+}
+
+.mentor-text {
+    font-size: 16px;
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.mentor-facebook {
+    width: 280px;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.mentor-facebook:hover {
+    background: #67c5ff;
+    color: white;
+    text-decoration: none;
+}
 
 #footer {
     width: 100%;
