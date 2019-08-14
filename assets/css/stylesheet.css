@@ -109,6 +109,7 @@ html,body,main {
     overflow: hidden;
 }
 
+/*
 .mentor-facebook {
     position:absolute;
     bottom:0;
@@ -132,6 +133,28 @@ html,body,main {
     background: #67c5ff;
     color: white;
     text-decoration: none;
+}
+*/
+
+.mentor-facebook {
+    position: absolute;
+    border: 2px #3B5998 solid ;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    bottom:15px;
+    padding-top: 6px;
+    margin: 0 auto;
+    color: #3B5998;
+    transition: .4s;
+}
+
+.mentor-facebook:hover {
+    text-decoration: none;
+    background-color: #3B5998;
+    color: #ffffff;
 }
 
 #footer {
