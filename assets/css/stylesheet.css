@@ -57,12 +57,24 @@ html,body,main {
     border-radius: 10px 10px 0 0;
     height: 40px;
     padding-top: 9px;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .course-blue {
     background-color: aquamarine;
 }
 
+.mentor-course a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+}
+
+.mentor-course a:hover {
+     text-decoration: none;
+}
 
 
 .mentor-img {
@@ -106,6 +118,8 @@ html,body,main {
     border: solid 2px #67c5ff;
     border-radius: 0 0 10px 10px;
     transition: .4s;
+    height: 50px;
+    padding-top: 11px
 }
 
 .mentor-facebook:hover {
