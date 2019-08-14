@@ -109,33 +109,6 @@ html,body,main {
     overflow: hidden;
 }
 
-/*
-.mentor-facebook {
-    position:absolute;
-    bottom:0;
-    left: -0;
-    right: 0;
-    margin: 0 auto;
-    
-    width: 100%;
-    display: inline-block;
-    padding: 0.3em 1em;
-    text-decoration: none;
-    color: #67c5ff;
-    border: solid 2px #67c5ff;
-    border-radius: 0 0 10px 10px;
-    transition: .4s;
-    height: 50px;
-    padding-top: 11px
-}
-
-.mentor-facebook:hover {
-    background: #67c5ff;
-    color: white;
-    text-decoration: none;
-}
-*/
-
 .mentor-facebook {
     position: absolute;
     border: 2px #3B5998 solid ;
