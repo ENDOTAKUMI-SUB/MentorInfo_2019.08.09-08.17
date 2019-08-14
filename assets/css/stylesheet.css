@@ -29,7 +29,7 @@ html,body,main {
 
 .mentor-content {
     width: 300px;
-    height: 400px;
+    height: 380px;
     border-radius: 10px;
     margin: 10px auto;
     background-color: #ffffff;
@@ -89,6 +89,7 @@ html,body,main {
 
 
 .mentor-img {
+    padding-top: 10px;
     width: 80px;
     border-radius: 50%;
 }
@@ -112,6 +113,7 @@ html,body,main {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 8;
     overflow: hidden;
+    padding-top: 16px;
 }
 
 .mentor-facebook {
@@ -122,7 +124,7 @@ html,body,main {
     right: 0;
     width: 200px;
     height: 40px;
-    bottom:15px;
+    bottom:20px;
     padding-top: 6px;
     margin: 0 auto;
     color: #3B5998;
