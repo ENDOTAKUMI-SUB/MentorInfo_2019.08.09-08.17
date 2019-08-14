@@ -34,13 +34,11 @@ html,body,main {
     margin: 10px auto;
     background-color: #ffffff;
     text-align: center;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 @media screen and (max-width: 980px) {
-    #mentor {
-        background-color: green; 
-    }
-    
     .mentor-content {
         width: 400px;
         height: 400px;
