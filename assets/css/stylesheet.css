@@ -29,7 +29,7 @@ html,body,main {
 
 .mentor-content {
     width: 280px;
-    height: 380px;
+    height: 360px;
     border-radius: 10px;
     margin: 10px auto;
     background-color: #ffffff;
@@ -106,6 +106,7 @@ html,body,main {
 }
 
 .mentor-text {
+    border-top: 1px #aaaaaa solid;
     font-size: 10px;
     color: #999;
     display: -webkit-box;
