@@ -58,6 +58,19 @@ html,body,main {
     background-color: aquamarine;
 }
 
+.course-yellow {
+    background-color: yellow;
+}
+
+.course-red {
+    background-color: red;
+}
+
+.course-green {
+    background-color: greenyellow;
+}
+
+
 .mentor-course a {
     position: absolute;
     width: 100%;
