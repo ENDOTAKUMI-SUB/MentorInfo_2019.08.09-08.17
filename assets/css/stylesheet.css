@@ -34,7 +34,7 @@ html,body,main {
     margin: 10px auto;
     background-color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     margin: 10px 10px 10px 10px;
     
     position:relative; 
@@ -47,6 +47,22 @@ html,body,main {
         height: 400px;
     }
 }
+
+.mentor-course {
+    position:absolute; 
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    padding-top: 9px;
+}
+
+.course-blue {
+    background-color: aquamarine;
+}
+
 
 
 .mentor-img {
@@ -64,10 +80,6 @@ html,body,main {
     margin: 0px auto;
     font-size: 10px;
     color: #999;
-}
-
-.mentor-course {
-    font-size: 16px;
 }
 
 .mentor-text {
