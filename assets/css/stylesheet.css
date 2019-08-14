@@ -14,24 +14,25 @@ html,body,main {
 
 #mentor {
     width: 100%;
-    
+    margin: 0 auto;
     background-color: #f0f3f8;
 }
 
 #mentor-list {
     max-width: 980px;
     margin: 0 auto;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 .mentor-content {
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
+    margin: 10px auto;
     background-color: #ffffff;
-    float: left;
     text-align: center;
 }
 
