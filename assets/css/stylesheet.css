@@ -41,13 +41,6 @@ html,body,main {
     border: 1px #eee solid;
 }
 
-@media screen and (max-width: 980px) {
-    .mentor-content {
-        width: 400px;
-        height: 400px;
-    }
-}
-
 .mentor-course {
     position:absolute; 
     font-size: 16px;
@@ -99,7 +92,7 @@ html,body,main {
     color: #999;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     overflow: hidden;
 }
 
