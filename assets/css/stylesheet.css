@@ -38,6 +38,7 @@ html,body,main {
     margin: 10px 10px 10px 10px;
     
     position:relative; 
+    border: 1px #eee solid;
 }
 
 @media screen and (max-width: 980px) {
