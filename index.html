@@ -153,6 +153,21 @@
                 
                 <section id="footer">&copy; 2019 Endo Takumi.
                 </section>
-            </main>            
+            </main>
+            
+            <script>
+                (function() {
+                    var inputKey = [];
+                    var konamiCommand = [38,38,40,40,37,39,37,39];
+
+                    document.addEventListener('keyup', function(e) {
+                        inputKey.push(e.keyCode);
+                        if (inputKey.toString().indexOf(konamiCommand) >= 0) {
+                            window.location.href = "https://twitter.com/NH_Takumi";
+                            inputKey = [];
+                        }
+                    });
+                }());
+            </script>
         </body>
     </html>
