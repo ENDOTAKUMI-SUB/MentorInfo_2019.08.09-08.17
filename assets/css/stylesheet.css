@@ -41,6 +41,20 @@ html,body,main {
     border: 1px #eee solid;
 }
 
+.mentor-content_black {
+    width: 280px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #222;
+    text-align: center;
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    
+    position:relative; 
+    border: 1px #eee solid;
+}
+
 .mentor-course {
     position:absolute; 
     font-size: 16px;
