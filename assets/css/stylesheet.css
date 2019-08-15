@@ -139,8 +139,9 @@ html,body,main {
 
 #footer {
     width: 100%;
+    padding-top: 20px;
     height: 100px;
     clear: both;
-    
-    background-color: greenyellow;
+    text-align: center;
+    background-color: #e1e4e9;
 }
