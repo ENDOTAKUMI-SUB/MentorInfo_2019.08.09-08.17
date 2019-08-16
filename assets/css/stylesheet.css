@@ -10,6 +10,8 @@ html,body,main {
     height: 100vh;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(45deg, rgba(4, 114, 124, 0.4), rgba(17, 66, 99, 0.6));
+
 }
 
 #video video {
@@ -26,7 +28,7 @@ html,body,main {
 }
 
 .target {
-    height:100px;
+    height:40px;
     width: 350px;
     margin: auto;
     position: absolute;
@@ -36,6 +38,7 @@ html,body,main {
     bottom: 0;
     
     text-align: center;
+    color: #fff;
 }
 
 #mentor {
