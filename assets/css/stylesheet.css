@@ -1,0 +1,178 @@
+html,body,main {
+    width: 100;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    
+    background-color: deepskyblue;
+}
+
+.target {
+    height:100px;
+    width: 350px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    text-align: center;
+}
+
+#mentor {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f0f3f8;
+}
+
+#mentor-list {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.mentor-content {
+    width: 280px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    
+    position:relative; 
+    border: 1px #eee solid;
+}
+
+.mentor-content_black {
+    width: 280px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: #222;
+    text-align: center;
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    
+    position:relative; 
+    border: 1px #eee solid;
+}
+
+.mentor-content_black>.mentor-name {
+    color: #ffffff;
+}
+
+.mentor-course {
+    position:absolute; 
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    text-align: left;
+    transition: .4s;
+}
+
+.mentor-course:hover {
+    opacity:0.6;
+}
+
+.course-blue {
+    background-color: #009bdb;
+}
+
+.course-yellow {
+    background-color: #fac700;
+}
+
+.course-red {
+    background-color: #e63c35;
+}
+
+.course-green {
+    background-color: #67b62d ;
+}
+
+
+.mentor-course a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.mentor-course a:hover {
+     text-decoration: none;
+}
+
+
+.mentor-img {
+    padding-top: 10px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.mentor-name {
+    font-size: 24px;
+    font-weight:bolder;
+}
+
+.mentor-full-name {
+    position:relative;
+    font-size: 10px;
+    color: #999;
+    top:-9px;
+}
+
+.mentor-text {
+    border-top: 1px #aaaaaa solid;
+    font-size: 10px;
+    color: #999;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    overflow: hidden;
+    padding-top: 16px;
+}
+
+.mentor-facebook {
+    position: absolute;
+    border: 2px #3B5998 solid ;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    bottom:20px;
+    padding-top: 6px;
+    margin: 0 auto;
+    color: #3B5998;
+    transition: .4s;
+}
+
+.mentor-facebook:hover {
+    text-decoration: none;
+    background-color: #3B5998;
+    color: #ffffff;
+}
+
+#footer {
+    width: 100%;
+    padding-top: 20px;
+    height: 100px;
+    clear: both;
+    text-align: center;
+    background-color: #e1e4e9;
+}
