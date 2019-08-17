@@ -42,6 +42,7 @@ html,body,main {
 }
 
 #mentor {
+    padding-top: 20px;
     width: 100%;
     margin: 0 auto;
     background-color: #f0f3f8;
